@@ -1,0 +1,7 @@
+class SmallestIntegerFinder {
+  findSmallestInt(number) {
+    number.sort(function(a, b) {//array needs sorted so that the smallest integer is in the first position
+    return a - b; } )
+    return number[0];// this should then return the number from that spot
+  }
+}
