@@ -1,6 +1,5 @@
 function sumTwoSmallestNumbers(numbers) {  
-  //Code here
-  
+
   numbers = numbers.sort(function (a, b) { //the numbers in an array need to be sorted
     return a - b;
   });
